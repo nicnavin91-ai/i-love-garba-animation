@@ -1,0 +1,15 @@
+{
+  "name": "i-love-garba-animation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Animated \"I LOVE GARBA\" (mo.js). Change the word with: npm run word -- <WORD>",
+  "scripts": {
+    "word": "node tools/set-word.js",
+    "start": "npx -y http-server . -p 5178 -c-1 -o /index.html"
+  },
+  "devDependencies": {
+    "@fontsource/montserrat": "^5.2.8",
+    "opentype.js": "^1.3.4"
+  },
+  "license": "MIT"
+}
